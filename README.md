@@ -22,13 +22,11 @@ __________________________________________________________________
 
 sonrasında **Windows > çalıştır > mstsc** yazıp enterliyoruz. 
 
-
+karışmıza çıkan menüde ip adresimizi girip bağlan basıyoruz.
 __________________________________________________________________
 
+
 ![scren](Screenshot_12.png)
-
-karışmıza çıkan menüde ip adresimizi girip bağlan basıyoruz.
-
 
 __________________________________________________________________
 
@@ -38,7 +36,7 @@ karşımıza çıkan formda
 user- kullanıcı adınızı
 passworda şifrenizi yazarak giriş yapabilirsiniz.
 
-
+__________________________________________________________________
 
 ![scren](Screenshot_14.png)
 
