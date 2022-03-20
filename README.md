@@ -15,20 +15,31 @@ kurulum bittiğinde
 
 konsolda böyle gözükecektir.
 
+
+__________________________________________________________________
+
 ![scren](Screenshot_11.png)
 
 sonrasında **Windows > çalıştır > mstsc** yazıp enterliyoruz. 
+
+
+__________________________________________________________________
 
 ![scren](Screenshot_12.png)
 
 karışmıza çıkan menüde ip adresimizi girip bağlan basıyoruz.
 
+
+__________________________________________________________________
+
 ![scren](Screenshot_13.png)
 
 karşımıza çıkan formda 
-
 user- kullanıcı adınızı
 passworda şifrenizi yazarak giriş yapabilirsiniz.
 
+
+
+![scren](Screenshot_14.png)
 
 **iyi kullanımlar**
