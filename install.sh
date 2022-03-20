@@ -25,7 +25,7 @@ dsrt=$(hostnamectl | egrep "Operating System" | cut -f2 -d":" | cut -f2 -d " ")
 if [ $dsrt = "Debian" ] ; then
 sudo apt-get -y install task-gnome-desktop
 elif [ $dsrt = "Ubuntu" ] ; then
-sudo apt -y install xfce4
+sudo apt install task-lxde-desktop
 fi
 
     printf "\n${slm}-----> Kurulum Bitti....${normal}\n"
