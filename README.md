@@ -15,9 +15,15 @@ kurulum bittiğinde
 
 konsolda böyle gözükecektir.
 
+![scren](Screenshot_11.png)
+
 sonrasında **Windows > çalıştır > mstsc** yazıp enterliyoruz. 
 
+![scren](Screenshot_12.png)
+
 karışmıza çıkan menüde ip adresimizi girip bağlan basıyoruz.
+
+![scren](Screenshot_13.png)
 
 karşımıza çıkan formda 
 
