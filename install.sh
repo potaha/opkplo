@@ -25,7 +25,22 @@ dsrt=$(hostnamectl | egrep "Operating System" | cut -f2 -d":" | cut -f2 -d " ")
 if [ $dsrt = "Debian" ] ; then
 sudo apt-get -y install task-gnome-desktop
 elif [ $dsrt = "Ubuntu" ] ; then
-sudo apt install task-lxde-desktop
+sudo apt-get install ubuntu-gnome-desktop
+sudo sed -i 's/allowed_users=console/allowed_users=anybody/' /etc/X11/Xwrapper.config
+cat >/etc/polkit-1/localauthority.conf.d/02-allow-colord.conf << END
+polkit.addRule(function(action, subject) {
+if ((action.id == "org.freedesktop.color-manager.create-device" ||
+action.id == "org.freedesktop.color-manager.create-profile" ||
+action.id == "org.freedesktop.color-manager.delete-device" ||
+action.id == "org.freedesktop.color-manager.delete-profile" ||
+action.id == "org.freedesktop.color-manager.modify-device" ||
+action.id == "org.freedesktop.color-manager.modify-profile") &&
+subject.isInGroup("{group}")) {
+return polkit.Result.YES;
+}
+});
+END
+sudo apt-get install gnome-tweak-tool -y
 fi
 
     printf "\n${slm}-----> Kurulum Bitti....${normal}\n"
