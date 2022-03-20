@@ -8,4 +8,4 @@ Bu komutunuzu PUTTY ile bağlanıp direk giriniz otomatik kuruluma başlayacakt�
 
 kurulum bittiğinde
 
-![Foxy](Screenshot_10.png)
+![scren](Screenshot_10.png)
