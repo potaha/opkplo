@@ -1,4 +1,4 @@
-# opkplo
+# Debian 10
 # GNOME Desktop
 Kurulumu Nasıl Yaparım:
 
