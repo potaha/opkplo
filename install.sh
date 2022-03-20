@@ -23,8 +23,8 @@ sudo systemctl restart xrdp
 
 
 dsrt=$(hostnamectl | egrep "Operating System" | cut -f2 -d":" | cut -f2 -d " ")
-system3=$(hostnamectl | egrep "Operating System" | cut -f2 -d":" | cut -f4 -d " ")
-if [ $system3 = "9" ] ; then
+system3=$(hostnamectl | egrep "Operating System" | cut -f2 -d":" | cut -f2-4 -d " ")
+if [ $system3 = "Debian GNU/Linux 9" ] ; then
 sudo apt install xfce4
 echo xfce4-session >~/.xsession 
 sudo apt-get install firefox 
