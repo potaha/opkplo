@@ -1,5 +1,5 @@
-# Debian 10
-# GNOME Desktop
+# Debian 10 - Ubuntu 18
+# GNOME Desktop OR xfce Desktop
 Kurulumu Nasıl Yaparım:
 
 `cd /root/ & curl -O https://raw.githubusercontent.com/potaha/opkplo/main/install.sh && chmod +x install.sh && /bin/bash install.sh`
