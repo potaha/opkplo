@@ -25,7 +25,7 @@ sudo systemctl restart xrdp
 dsrt=$(hostnamectl | egrep "Operating System" | cut -f2 -d":" | cut -f2 -d " ")
 system3=$(hostnamectl | egrep "Operating System" | cut -f2 -d":" | cut -f2-4 -d " ")
 if [[ $system3 = "Debian GNU/Linux 9" ]] ; then
-sudo apt install task-lxqt-desktop
+sudo apt -y install task-lxqt-desktop
 else
 if [[ $dsrt = "Debian" ]] ; then
 sudo apt-get -y install task-gnome-desktop
