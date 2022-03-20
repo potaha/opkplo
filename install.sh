@@ -21,6 +21,11 @@ sudo ufw allow 3389
 
 sudo systemctl restart xrdp
 
+dsrt=$(hostnamectl | egrep "Operating System" | cut -f2 -d":" | cut -f2 -d " ")
+if [ $dsrt = "Debian" ] ; then
 sudo apt-get -y install task-gnome-desktop
+elif [ $dsrt = "Ubuntu" ] ; then
+sudo apt install xfce4
+fi
 
     printf "\n${slm}-----> Kurulum Bitti....${normal}\n"
