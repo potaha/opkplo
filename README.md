@@ -8,3 +8,4 @@ Bu komutunuzu PUTTY ile bağlanıp direk giriniz otomatik kuruluma başlayacakt�
 
 kurulum bittiğinde
 
+(Screenshot_10.png)
