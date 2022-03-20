@@ -36,6 +36,14 @@ sudo apt-get -y install firefox
 sudo service xrdp restart
 fi
 fi
-
+clear && printf '\e[3J'
+echo ""
+echo ""
+echo ""
+echo "############################################"
+ip_add=$(wget -qO- ifconfig.me)
+echo -e "\033[31;4m##  İp Adresiniz: $ip_add\033[0m"
+echo "############################################"
+echo ""
 
     printf "\n${slm}-----> Kurulum Bitti....${normal}\n"
